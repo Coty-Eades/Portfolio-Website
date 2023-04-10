@@ -21,3 +21,15 @@ var typed = new Typed(".auto-type", {
     strings: ["Console.WriteLine(<br>Hello World! I'm Coty Eades,<br> Software Developer);"],
     typeSpeed: 35 
 })
+
+
+// Script that opens side menu on mobile screens
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
